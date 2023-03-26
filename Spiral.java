@@ -29,7 +29,7 @@ public class Spiral{
                 System.out.print(arr[row_end][col]);
             }
             row_end--;
-            for(int row=row_end; row>=row_start; row++){
+            for(int row=row_end; row>=row_start; row--){
                 System.out.print(arr[row][col_start]);
             }
             col_start++;
